@@ -2,20 +2,21 @@ name: CI
 
 on:
   push:
-    branches: [main, master, develop]
+    branches: [main, develop]
   pull_request:
-    branches: [main, master, develop]
+    branches: [main, develop]
 
 jobs:
-  lint-and-test:
+  check:
+    name: Code Check
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
           version: 8
 
@@ -38,4 +39,4 @@ jobs:
         run: pnpm run format:check:all
 
       - name: Run tests
-        run: pnpm run test --run --passWithNoTests || true
+        run: pnpm run test
