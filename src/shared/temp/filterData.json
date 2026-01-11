@@ -1,141 +1,164 @@
 {
 	"filterItems": [
 		{
-			"id": "MEAL_OPTIONS",
-			"name": "Meal options",
-			"description": "Choose the type of dining",
+			"id": "PRELIMINARY_FILTER",
+			"name": "Preliminary filter",
 			"type": "OPTION",
 			"options": [
-				{
-					"id": "breakfast",
-					"name": "Breakfast included",
-					"description": "The stay comes with a complimentary morning meal to start your day."
-				},
-				{
-					"id": "lunch",
-					"name": "Lunch included",
-					"description": "Enjoy a midday meal included with your stay."
-				},
-				{
-					"id": "dinner",
-					"name": "Dinner included",
-					"description": "Evening meals are provided as part of your accommodation package."
-				},
-				{
-					"id": "all-inclusive",
-					"name": "All inclusive",
-					"description": "Covers all meals and drinks during your stay, often including extra services or activities."
-				}
+				{ "id": "distance-1km", "name": "Distance to the center 1 km" },
+				{ "id": "guest-rating-9", "name": "Guest rating 9+" },
+				{ "id": "hotels", "name": "Hotels" },
+				{ "id": "distance-3km", "name": "Distance to the center 3 km" },
+				{ "id": "5-stars", "name": "5 stars" },
+				{ "id": "breakfast-included", "name": "Breakfast is included" }
 			]
 		},
 		{
-			"id": "RULES_POLICIES_PAYMENT",
-			"name": "Rules, Policies, and Payment",
+			"id": "POPULAR_FILTERS",
+			"name": "Popular filters",
 			"type": "OPTION",
 			"options": [
-				{
-					"id": "free-cancellation",
-					"name": "Free cancellation",
-					"description": "Option to cancel your booking without any charges, up to a certain date."
-				},
-				{
-					"id": "pets-allowed",
-					"name": "Pets allowed",
-					"description": "Accommodations are pet-friendly, allowing you to bring your animal companions."
-				},
-				{
-					"id": "non-smoking-room",
-					"name": "Non-Smoking room",
-					"description": "Rooms specifically designated as smoke-free for your comfort and health."
-				}
+				{ "id": "5-stars-popular", "name": "5 stars" },
+				{ "id": "breakfast-included-popular", "name": "Breakfast is included" },
+				{ "id": "free-booking", "name": "Free booking" },
+				{ "id": "4-stars", "name": "4 stars" },
+				{ "id": "distance-3km-popular", "name": "Distance to the center 3 km" },
+				{ "id": "guest-rating-8", "name": "Guest rating 8+" }
 			]
 		},
 		{
-			"id": "FACILITIES",
-			"name": "Facilities",
-			"description": "Room and hotel facilities",
+			"id": "AMENITIES_ACCOMMODATION",
+			"name": "Amenities of the accommodation facility",
 			"type": "OPTION",
 			"options": [
-				{
-					"id": "private-bathroom",
-					"name": "Private bathroom",
-					"description": "Room includes an exclusive bathroom for your personal use."
-				},
-				{
-					"id": "air-conditioning",
-					"name": "Air conditioning",
-					"description": "Equipped with a system to cool the room for comfortable temperatures."
-				},
-				{
-					"id": "heating",
-					"name": "Heating",
-					"description": "Features a heating system to keep the room warm and cozy."
-				},
-				{
-					"id": "coffee-tea-maker",
-					"name": "Coffee/Tea maker",
-					"description": "Includes facilities to make your own coffee or tea in the room."
-				},
-				{
-					"id": "shuttle-service",
-					"name": "Shuttle service",
-					"description": "Transportation services available for convenient travel to and from the property."
-				},
-				{
-					"id": "wi-fi",
-					"name": "Wi-Fi",
-					"description": "Wireless internet access available throughout the property."
-				},
-				{
-					"id": "parking",
-					"name": "Parking",
-					"description": "Provides space for parking your vehicle during your stay."
-				},
-				{
-					"id": "pool",
-					"name": "Pool",
-					"description": "Access to a swimming pool for relaxation and leisure activities."
-				}
+				{ "id": "transfer-hotel", "name": "Transfer to/from the hotel" },
+				{ "id": "breakfast-included-amenity", "name": "Breakfast included" },
+				{ "id": "smoking-area", "name": "Smoking area" },
+				{ "id": "round-clock-reception", "name": "Round-the-clock reception" },
+				{ "id": "restaurant", "name": "Restaurant" },
+				{ "id": "childrens-playground", "name": "Children's playground" },
+				{ "id": "early-check-in", "name": "Early check-in" },
+				{ "id": "swimming-pool", "name": "Swimming pool" },
+				{ "id": "internet", "name": "Internet" },
+				{ "id": "late-check-in", "name": "Late check-in" },
+				{ "id": "spa-center-sauna", "name": "Spa center/sauna" },
+				{ "id": "security", "name": "Security" },
+				{ "id": "pets-allowed", "name": "Pets are allowed" },
+				{ "id": "gym-fitness", "name": "Gym/fitness room" },
+				{ "id": "lift", "name": "Lift" },
+				{ "id": "parking", "name": "Parking" },
+				{ "id": "conference-rooms", "name": "Conference rooms" },
+				{ "id": "eco-responsibility", "name": "Eco-responsibility" }
 			]
 		},
 		{
-			"id": "BED_TYPE",
-			"name": "Bed type",
-			"description": "Choose the preferred bed type",
+			"id": "AMENITIES_DISABILITIES",
+			"name": "Amenities for people with disabilities",
 			"type": "OPTION",
 			"options": [
-				{
-					"id": "twin-beds",
-					"name": "Twin beds",
-					"description": "Two separate single beds, ideal for friends or colleagues traveling together."
-				},
-				{
-					"id": "double-bed",
-					"name": "Double Bed",
-					"description": "One large bed designed for comfortable sleeping of two people."
-				}
+				{ "id": "entrance-no-steps", "name": "Entrance without steps" },
+				{ "id": "parking-disabled", "name": "Parking" },
+				{ "id": "lift-disabled", "name": "Lift" },
+				{ "id": "entrance-81cm-wide", "name": "Entrance 81 cm wide" },
+				{ "id": "ramp-availability", "name": "Availability of a ramp" },
+				{ "id": "handrails", "name": "Handrails" }
 			]
 		},
 		{
-			"id": "HEALTH_ENTERTAINMENT_SPORTS",
-			"name": "Health, Entertainment, and Sports",
+			"id": "ROOM_FACILITIES",
+			"name": "Room facilities",
 			"type": "OPTION",
 			"options": [
-				{
-					"id": "gym",
-					"name": "Gym",
-					"description": "A well-equipped fitness center for exercise and physical workouts."
-				},
-				{
-					"id": "spa",
-					"name": "Spa",
-					"description": "A facility offering health and beauty treatments for relaxation and rejuvenation."
-				},
-				{
-					"id": "sauna",
-					"name": "Sauna",
-					"description": "A room for dry or wet heat sessions, ideal for relaxation and detoxification."
-				}
+				{ "id": "bath", "name": "Bath" },
+				{ "id": "kitchen", "name": "Kitchen" },
+				{ "id": "underfloor-heating", "name": "Underfloor heating" },
+				{ "id": "shower", "name": "Shower" },
+				{ "id": "air-conditioning", "name": "Air Conditioning" },
+				{ "id": "pets-allowed-room", "name": "Pets allowed" },
+				{ "id": "coffee-machine", "name": "Coffee machine" },
+				{ "id": "iron", "name": "Iron" },
+				{ "id": "baby-bed", "name": "Baby bed" },
+				{ "id": "kettle", "name": "Kettle" },
+				{ "id": "internet-room", "name": "Internet" },
+				{ "id": "balcony", "name": "Balcony" },
+				{ "id": "fridge", "name": "Fridge" },
+				{ "id": "workplace", "name": "Workplace" }
+			]
+		},
+		{
+			"id": "ROOM_FACILITIES_DISABILITIES",
+			"name": "Room facilities for people with disabilities",
+			"type": "OPTION",
+			"options": [
+				{ "id": "main-door-81cm", "name": "Main door entrance width 81 cm" },
+				{ "id": "handrail-shower", "name": "Handrail in the shower" },
+				{ "id": "high-toilet-bowl", "name": "High toilet bowl" },
+				{ "id": "interior-door-81cm", "name": "Interior door width 81 cm" },
+				{ "id": "bath-shower-chair", "name": "Bath/shower chair" },
+				{ "id": "instructions-braille", "name": "Instructions in Braille" },
+				{ "id": "absence-steps", "name": "Absence of steps" },
+				{ "id": "barrier-free-shower", "name": "Barrier-free shower" },
+				{ "id": "emergency-cord-bathroom", "name": "Emergency cord in the bathroom" },
+				{ "id": "handrail-toilet", "name": "Handrail near the toilet" },
+				{ "id": "low-washbasin", "name": "Low washbasin" },
+				{ "id": "emergency-cord-bedside", "name": "Emergency cord by the bedside" }
+			]
+		},
+		{
+			"id": "NUTRITION",
+			"name": "Nutrition",
+			"type": "OPTION",
+			"options": [
+				{ "id": "room-without-meals", "name": "Room without meals" },
+				{ "id": "breakfast-dinner", "name": "Breakfast and dinner" },
+				{ "id": "all-inclusive", "name": "All inclusive" },
+				{ "id": "breakfast-included-nutrition", "name": "Breakfast included" },
+				{ "id": "breakfast-lunch-dinner", "name": "Breakfast, lunch, dinner" },
+				{ "id": "ultra-all-inclusive", "name": "Ultra all inclusive" }
+			]
+		},
+		{
+			"id": "RESERVATION_CANCELLATION",
+			"name": "Reservation cancellation policy",
+			"type": "OPTION",
+			"columns": 2,
+			"options": [
+				{ "id": "free-cancellation-before-checkin", "name": "Free cancellation before check-in" },
+				{ "id": "free-cancellation-week", "name": "Free cancellation one week before check-in" },
+				{ "id": "free-cancellation-3-days", "name": "Free cancellation up to 3 days before check-in" },
+				{ "id": "no-cancellation", "name": "No possibility of cancellation" }
+			]
+		},
+		{
+			"id": "PREPAYMENT",
+			"name": "Prepayment",
+			"type": "OPTION",
+			"columns": 2,
+			"options": [
+				{ "id": "booking-no-card", "name": "Booking without a credit card" },
+				{ "id": "partial-prepayment", "name": "Partial prepayment" },
+				{ "id": "booking-no-prepayment", "name": "Booking without prepayment" },
+				{ "id": "full-prepayment", "name": "Full prepayment" }
+			]
+		},
+		{
+			"id": "PAYMENT_FORM",
+			"name": "Form of payment",
+			"type": "OPTION",
+			"columns": 1,
+			"options": [
+				{ "id": "payment-cash", "name": "Payment in cash" },
+				{ "id": "payment-card", "name": "Payment by card" }
+			]
+		},
+		{
+			"id": "SPECIAL_OFFERS",
+			"name": "Special offers and discounts",
+			"type": "OPTION",
+			"options": [
+				{ "id": "discounts-50", "name": "Discounts of 50%" },
+				{ "id": "hot-offers", "name": "Hot offers" },
+				{ "id": "cheap-relocation", "name": "Cheap options for relocation" }
 			]
 		}
 	]

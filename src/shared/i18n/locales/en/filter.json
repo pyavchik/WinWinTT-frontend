@@ -1,1 +1,18 @@
-{}
+{
+	"title": "Filter",
+	"apply": "Apply",
+	"cancel": "Cancel",
+	"close": "Close",
+	"clearAll": "Clear All",
+	"clearAllParameters": "Clear all parameters",
+	"openFilters": "Open Filters",
+	"confirmationTitle": "Do you want to apply new filter",
+	"confirmationMessage": "",
+	"confirmYes": "Apply new filter",
+	"confirmNo": "Use old filter",
+	"error": "Failed to load filters. Please try again.",
+	"appTitle": "WinWinTravel",
+	"appSubtitle": "Frontend Test Task - Filter Modal Implementation",
+	"debugTitle": "Selected Filters (Debug Output)",
+	"noFiltersSelected": "No filters selected"
+}
