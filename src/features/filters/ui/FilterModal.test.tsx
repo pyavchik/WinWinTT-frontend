@@ -2,9 +2,11 @@ import { I18nextProvider } from 'react-i18next'
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { render, screen } from '@testing-library/react'
-import { describe, expect, it } from 'vitest'
+import i18n from 'i18next'
+import { describe, expect, it, vi } from 'vitest'
 
-import i18n from '@/shared/i18n'
+// Import to ensure i18n is configured
+import '@/shared/i18n'
 
 import { FilterModal } from './FilterModal'
 
@@ -12,7 +14,7 @@ const queryClient = new QueryClient({
 	defaultOptions: {
 		queries: {
 			retry: false,
-			cacheTime: 0
+			gcTime: 0
 		}
 	}
 })
@@ -26,13 +28,25 @@ const renderWithProviders = (component: React.ReactElement) => {
 }
 
 describe('FilterModal', () => {
-	it('renders without crashing', () => {
-		renderWithProviders(<FilterModal />)
+	const mockOnClose = vi.fn()
+
+	it('renders without crashing when closed', () => {
+		renderWithProviders(
+			<FilterModal
+				isOpen={false}
+				onClose={mockOnClose}
+			/>
+		)
 		expect(document.body).toBeDefined()
 	})
 
-	it('does not show modal by default', () => {
-		renderWithProviders(<FilterModal />)
+	it('does not show modal content when closed', () => {
+		renderWithProviders(
+			<FilterModal
+				isOpen={false}
+				onClose={mockOnClose}
+			/>
+		)
 		const modal = screen.queryByRole('dialog')
 		expect(modal).not.toBeInTheDocument()
 	})
